@@ -1,0 +1,251 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root{
+    --cor-primaria: #FED001;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    width: 98.7vw;
+    font-size: 62.5%;
+}
+
+.botao{
+    background-color: var(--cor-primaria);
+    font-size: 2em;
+    padding: .6em 2em;
+    border-radius: 5px;
+}
+
+.container{
+    max-width: 127.6rem;
+    margin: auto;
+}
+
+.header{
+    background-color: #2A2A2A;
+    width: 100%;
+    height: 20vh;
+    font-size: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.header-div{
+    height: 100%;
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-div_menu{
+    display: flex;
+    gap: .5em;
+}
+
+.header-div_menu li{
+    border: 1px solid var(--cor-primaria);
+}
+
+.header-div_menu a{
+    color: var(--cor-primaria);
+    height: 100%;
+    padding: .75rem 1rem;
+    display: block;
+    display: flex;
+    align-items: center;
+}
+
+.header-div_menu a:hover{
+    background-color: black;
+}
+
+.inicio{
+    background-image: linear-gradient(transparent, rgb(255, 255, 86));
+    height: 80vh;
+}
+
+.inicio-div{
+    width: 94%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inicio-div_texto{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-bottom: 4%;
+}
+
+.inicio-div_texto_title{
+    font-size: 5em;
+    margin-bottom: 1em;
+}
+
+.uppr{
+    text-transform: uppercase;
+}
+
+.inicio-div_image{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.inicio-div_image img{
+    width: 54.5em;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.cursos{
+    background-color: #FAFAFA;
+    height: 80vh;
+}
+
+.cursos-div{
+    height: 100%;
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 0;
+}
+
+.cursos-div h2{
+    font-size: 3em;
+}
+
+.cursos-div_flex{
+    height: 70%;
+    display: flex;
+    gap: 2em;
+}
+
+.card{
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+}
+
+.div-container_content{
+    height: 50%;
+    padding: 1em;
+}
+
+.div-container_content h3{
+    font-size: 2em;
+    margin-bottom: .5em;
+}
+
+.div-container_content p{
+    font-size: 1.5em;
+}
+
+.escola{
+    background-color: #003464;
+    height: 80vh;
+}
+
+.escola-div{
+    width: 94%;
+    height: 100.3%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.div-escola_imagem{
+    width: 50%;
+}
+
+.div-escola_imagem img{
+    max-width: 60em;
+}
+
+.div-escola_texto{
+    color: #FAFAFA;
+    width: 40%;
+    font-size: 1.8em;
+    letter-spacing: 0.05em;
+    line-height: 1.2em;
+    margin-right: 2em;
+    align-self: center; 
+}
+
+.div-escola_texto_title{
+    margin-bottom: 1em;
+}
+
+.contato{
+    height: 80vh;
+    background-color: #FAFAFA;
+}
+
+.contato-div{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.contato-div_mapa{
+    width: 100%;
+    height: 30em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contato-div_title{
+    height: 20%;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato-div_mapa iframe{
+    height: 100%;
+    width: 100%;
+}
+
+.contato-div_endereco{
+    height: 20%;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+}
+
+
+
+.rodape{
+    background-color: #2A2A2A;
+    color: var(--cor-primaria);
+    height: 10vh;
+    width: 100%;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
